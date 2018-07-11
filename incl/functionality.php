@@ -35,3 +35,14 @@
 //     ));
 // }
 // }
+
+
+/***
+ * CHANNGE ADMIN FOOTER TEXT
+ */
+
+ function edit_admin_footer_text() {
+    echo 'Fueled by <a href="http://www.wordpress.org" target="_blank">WordPress</a> | Crafted by <a href="http://atabilisim.pro/" target="_blank">Ata Bilişim</a> </p>';
+ }
+
+ add_filter('admin_footer_text', 'edit_admin_footer_text');

@@ -9,15 +9,17 @@
             <style type="text/css"> 
                 body.login {
                     background: #0073aa;
-                    background-image: url('http://www.cyprusivf.net/wp-content/uploads/2018/02/cyprus-ivf-bg.jpg'); 
+                    background-image: url('http://redifnurel.com/wp-content/uploads/2018/05/login-bg.jpg'); 
                     background-size: cover;
                     background-repeat: no-repeat;
                 }
 
              body.login div#login h1 a {
 
-                background-image: url('http://www.cyprusivf.net/wp-content/uploads/2018/02/dogus-ivf-logo.png'); 
-                padding-bottom: 30px; 
+                background-image: url('http://redifnurel.com/wp-content/uploads/2018/05/login-logo.png'); 
+                padding-bottom: 30px;
+                background-size: contain;
+                min-width: 200px;
 
                 } 
             </style>
@@ -44,7 +46,7 @@
      
     }
      
-    add_action('wp_dashboard_setup', 'remove_dashboard_widgets' );
+   add_action('wp_dashboard_setup', 'remove_dashboard_widgets' );
 
 
     /***************
